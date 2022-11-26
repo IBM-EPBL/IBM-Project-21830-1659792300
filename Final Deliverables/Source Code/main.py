@@ -28,7 +28,7 @@ myConfig = {
 client = wiotp.sdk.device.DeviceClient(config=myConfig,
 logHandlers=None)
 client.connect()
-#Sending data for every 2 seconds to cloud
+#Sending data for every 5000 seconds to cloud
 while True:
  soil=random.randint(0, 100)
  temp=random.randint(0,125)
